@@ -6,6 +6,20 @@ $font-families: (
   serif: "Source Sans Pro"
 );
 
+$components: (
+  display,
+  flex,
+  grid,
+  spacing,
+  text-align,
+  text-colors,
+  fonts,
+  font-sizes,
+  font-style,
+  font-weights,
+  title-sizes
+);
+
 $title-sizes: (
   h1: 4rem,
   h2: 3rem,
