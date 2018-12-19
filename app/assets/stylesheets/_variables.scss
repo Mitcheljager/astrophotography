@@ -3,19 +3,26 @@
 $css-variables: true;
 
 $font-families: (
-  serif: "PT Sans"
+  serif: "Source Sans Pro"
 );
 
 $title-sizes: (
-  h1: 4em,
-  h2: 2.5em,
-  h3: 1.75em
+  h1: 2rem,
+  h2: 1.5rem,
+  h3: 1.25em
 );
 
 $font-sizes: (
   small: .85em,
   normal: 18px,
   large: 1.15em
+);
+
+$font-weights: (
+  lighter,
+  normal,
+  bold,
+  bolder
 );
 
 $spacing: (
