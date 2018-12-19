@@ -65,6 +65,7 @@ GEM
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.9.25-x86-mingw32)
+    flake-scss (0.1.16)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.2.0)
@@ -169,6 +170,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  flake-scss
   jbuilder (~> 2.5)
   puma (~> 3.7)
   rails (~> 5.1.6)
