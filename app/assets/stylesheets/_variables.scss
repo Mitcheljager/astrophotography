@@ -7,9 +7,10 @@ $font-families: (
 );
 
 $title-sizes: (
-  h1: 2rem,
-  h2: 1.5rem,
-  h3: 1.25em
+  h1: 4rem,
+  h2: 3rem,
+  h3: 2rem,
+  h4: 1.5rem
 );
 
 $font-sizes: (
@@ -38,8 +39,8 @@ $spacing: (
 
 $full-colors: false;
 $theme-colors: (
-  light: #f0edf2,
-  dark: map-get(map-get($colors-list, gray), 700),
+  light: map-get(map-get($colors-list, gray), 600),
+  dark: darken(map-get(map-get($colors-list, gray), 900), 8%),
   white: #fff,
   black: #000
 );
