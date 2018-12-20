@@ -24,6 +24,10 @@ figure {
   margin: 0;
 }
 
+time {
+  display: block;
+}
+
 h1 {
   font-size: map-get($title-sizes, h1) / 2 !important;
 
