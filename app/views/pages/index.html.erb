@@ -237,6 +237,27 @@
 
 <figure class="mb-4 sm:mb-5">
   <picture>
+    <source srcset="<%= image_url "webp/moon-3.webp" %>" type="image/webp">
+    <source srcset="<%= image_url "jpeg/moon-3.jpg" %>" type="image/jpeg">
+    <%= image_tag "jpeg/moon-3.jpg", class: "mb-2" %>
+  </picture>
+
+  <div class="md:flex align-start justify-between text-small">
+    <figcaption class="md:w-3/5">
+      <strong>Full Moon.</strong>
+      <br>
+      Taken with Sky-Watcher 72ed through 12.5mm eyepiece for effective magnification of 35 times.
+    </figcaption>
+
+    <div class="md:w-2/5 mt-2 md:mt-0 md:text-right">
+      <time>January 20, 2019</time>
+      <%= link_to "View full size", image_url("large/moon-3.jpg"), class: "text-light", target: "_blank" %> <small>(13MB)</small>
+    </div>
+  </div>
+</figure>
+
+<figure class="mb-4 sm:mb-5">
+  <picture>
     <source srcset="<%= image_url "webp/sun-1.webp" %>" type="image/webp">
     <source srcset="<%= image_url "jpeg/sun-1.jpg" %>" type="image/jpeg">
     <%= image_tag "jpeg/sun-1.jpg", class: "mb-2" %>
