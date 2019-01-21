@@ -195,6 +195,25 @@
 
 <figure class="mb-4 sm:mb-5">
   <picture>
+    <source srcset="<%= image_url "jpeg/bloodmoon-2.jpg" %>" type="image/jpeg">
+    <%= image_tag "jpeg/bloodmoon-2.jpg", class: "mb-2" %>
+  </picture>
+
+  <div class="md:flex align-start justify-between text-small">
+    <figcaption class="md:w-3/5">
+      <br>
+      Taken with Sky-Watcher 72ed through with 1.4x teleconverter. This image is a composite of 3 different photos. The stars are a separate shot. Colours are true to life.
+    </figcaption>
+
+    <div class="md:w-2/5 mt-2 md:mt-0 md:text-right">
+      <time>January 21, 2019</time>
+      <%= link_to "View full size", image_url("large/bloodmoon-2.jpg"), class: "text-light", target: "_blank" %> <small>(2MB)</small>
+    </div>
+  </div>
+</figure>
+
+<figure class="mb-4 sm:mb-5">
+  <picture>
     <source srcset="<%= image_url "webp/moon-1.webp" %>" type="image/webp">
     <source srcset="<%= image_url "jpeg/moon-1.jpg" %>" type="image/jpeg">
     <%= image_tag "jpeg/moon-1.jpg", class: "mb-2" %>
