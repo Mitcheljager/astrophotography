@@ -15,6 +15,10 @@ html {
   width: 100%;
   max-width: calc(1200px + (var(--space-5) * 2));
   margin: 0 auto;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    width: 80vw;
+  }
 }
 
 img,
@@ -31,7 +35,7 @@ time {
 h1 {
   font-size: map-get($title-sizes, h1) / 2 !important;
 
-  @include breakpoint(sm) {
+  @include breakpoint(md) {
     font-size: map-get($title-sizes, h1) !important;
   }
 }
