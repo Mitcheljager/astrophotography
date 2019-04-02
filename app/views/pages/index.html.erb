@@ -130,6 +130,27 @@
 
 <figure class="mb-4 sm:mb-5">
   <picture>
+    <source srcset="<%= image_url "webp/m51-1.webp" %>" type="image/webp">
+    <source srcset="<%= image_url "jpeg/m51-1.jpg" %>" type="image/jpeg">
+    <%= image_tag "jpeg/m51-1.jpg", class: "mb-2" %>
+  </picture>
+
+  <div class="md:flex align-start justify-between text-small">
+    <figcaption class="md:w-3/5">
+      <strong>Whirlpool Galaxy (M51)</strong> Total intergation time of 90 minutes.
+      <br>
+      Taken with Sky-Watcher 72ed with 1.4x teleconverter and 0.89x field flattener.
+    </figcaption>
+
+    <div class="md:w-2/5 mt-2 md:mt-0 md:text-right">
+      <time>April 1, 2019</time>
+      <%= link_to "View full size", image_url("large/m51-1.jpg"), class: "text-light", target: "_blank" %> <small>(1MB)</small>
+    </div>
+  </div>
+</figure>
+
+<figure class="mb-4 sm:mb-5">
+  <picture>
     <source srcset="<%= image_url "webp/orion-1.webp" %>" type="image/webp">
     <source srcset="<%= image_url "jpeg/orion-1.jpg" %>" type="image/jpeg">
     <%= image_tag "jpeg/orion-1.jpg", class: "mb-2" %>
